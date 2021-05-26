@@ -1,0 +1,8 @@
+<% layout('layouts/boilerplate')%>
+    <h1>Admin page</h1>
+    <% if(!currentUser) {%>
+        <button><a href="/admin/login">Login</a></button>
+    <% } else {%>
+        <a href="/admin/adduser">Add user</a>
+        <button><a href="/admin/logout">Logout</a></button>
+    <% } %>
