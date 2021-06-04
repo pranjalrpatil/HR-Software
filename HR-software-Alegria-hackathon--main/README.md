@@ -3,7 +3,7 @@
 - Download the files
 - Run `npm install`
 - Then run `node index.js`
-- If it runs without any errors, checkout http://localhost:3000
+
 
 
 The website hosts three users:
